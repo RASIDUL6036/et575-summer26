@@ -4,7 +4,7 @@ June1, 2026
 lab 1: isotream
 */
 
-#include<iostream>
+#include  <iostream>
 
 int main(){
     std::cout<<"Hello World!";
