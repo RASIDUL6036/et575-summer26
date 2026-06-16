@@ -4,6 +4,71 @@ June 2026
 Lab Experiment: Function calling function
 */
 
+/*
+
+PSEUDOCODE
+
+Function inputMarks()
+
+    Ask user to enter marks
+
+    While marks is less than 0 or greater than 100
+
+        Ask user to enter marks again
+
+    Return valid marks
+
+Function totalMarks(m1,m2,m3)
+
+    Add m1, m2, and m3
+
+    Return total
+
+Function calculatePercentage(m1,m2,m3)
+
+    Call totalMarks(m1,m2,m3)
+
+    Divide total by 300.0
+
+    Multiply by 100
+
+    Return percentage
+
+Function determineGrade(percentage)
+
+    If percentage >= 90 return 'A'
+
+    Else if percentage >= 80 return 'B'
+
+    Else if percentage >= 70 return 'C'
+
+    Else if percentage >= 60 return 'D'
+
+    Else return 'F'
+
+Function displayResult(m1,m2,m3,grade)
+
+    Display the three marks
+
+    Display the final grade
+
+Main()
+
+    Get mark1 using inputMarks()
+
+    Get mark2 using inputMarks()
+
+    Get mark3 using inputMarks()
+
+    Calculate percentage
+
+    Determine grade
+
+    Display result
+
+*/
+
+
 #include<iostream>
 using namespace std;
 
