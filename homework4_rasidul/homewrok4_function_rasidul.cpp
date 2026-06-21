@@ -75,12 +75,13 @@ int checkWinner(int win[], int ticket[]){
     int count = 0;
 
     for(int i = 0; i<ARRAYSIZE; i++){
+    for(int j=0 ;j<ARRAYSIZE; j++){
 
-        if(win[i] == ticket[i]){
+        if(win[i] == ticket[j]){
             count++;
         }
     }
-
+    }
     return count;
 }
 
